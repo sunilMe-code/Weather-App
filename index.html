@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="sunAnimation" class="sky">
+
+            <div class="cloud cloud--big">
+                <div class="puffwrap">
+                    <div class="puff p1"></div>
+                    <div class="puff p2"></div>
+                    <div class="puff p3"></div>
+                    <div class="puff p4"></div>
+                    <div class="puff p5"></div>
+                    <div class="puff-shadow shadow"></div>
+                </div>
+            </div>
+
+            <div class="cloud cloud--small">
+                <div class="puffwrap">
+                    <div class="puff p1"></div>
+                    <div class="puff p2"></div>
+                    <div class="puff p3"></div>
+                    <div class="puff p4"></div>
+                </div>
+            </div>
+
+            <div class="cloud cloud--tiny">
+                <div class="puffwrap">
+                    <div class="puff p1"></div>
+                    <div class="puff p2"></div>
+                    <div class="puff p3"></div>
+                    <div class="puff p4"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="stormAnimation" class="storm">
+
+            <div class="flash"></div>
+
+            <div class="cloud cloud--big">
+                <div class="puff p1"></div>
+                <div class="puff p2"></div>
+                <div class="puff p3"></div>
+                <div class="puff p4"></div>
+                <div class="puff p5"></div>
+            </div>
+
+            <div class="cloud cloud--small">
+                <div class="puff p1"></div>
+                <div class="puff p2"></div>
+            </div>
+
+            <div id="rainfield"></div>
+
+        </div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search city...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="today-weather">
+            <div class="location">
+                <h1 id="country">INDIA,</h1>
+                <h1 id="city">DELHI</h1>
+            </div>
+
+            <div class="today-weather-content">
+
+            </div>
+
+        </div>
+
+        <ul class="hourlyWeather">
+
+        </ul>
+
+        <div class="forecast-7day">
+            <div class="title">
+                <h3>7-Day Forecast</h3>
+            </div>
+
+            <ul id="forecastList" class="forecastList">
+
+            </ul>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
